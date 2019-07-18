@@ -161,6 +161,67 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-命令" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="1、后台执行命令"><a href="#1、后台执行命令" class="headerlink" title="1、后台执行命令"></a>1、后台执行命令</h3><h4 id="1）crontab命令"><a href="#1）crontab命令" class="headerlink" title="1）crontab命令"></a>1）crontab命令</h4><h5 id="crontab命令每分钟执行一次date写入到job1-log"><a href="#crontab命令每分钟执行一次date写入到job1-log" class="headerlink" title="crontab命令每分钟执行一次date写入到job1.log"></a>crontab命令每分钟执行一次date写入到job1.log</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png" alt="img"></p>
+<h4 id="2）at命令"><a href="#2）at命令" class="headerlink" title="2）at命令"></a>2）at命令</h4><h5 id="at命令在14点40分执行date写入到job2-log"><a href="#at命令在14点40分执行date写入到job2-log" class="headerlink" title="at命令在14点40分执行date写入到job2.log"></a>at命令在14点40分执行date写入到job2.log</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image003.jpg" alt="img"></p>
+<h5 id="查看job2-log写入的数据"><a href="#查看job2-log写入的数据" class="headerlink" title="查看job2.log写入的数据"></a>查看job2.log写入的数据</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png" alt="img"></p>
+<h4 id="3）-amp"><a href="#3）-amp" class="headerlink" title="3）&amp;"></a>3）<strong>&amp;</strong></h4><h5 id="用-amp-将helloworld-sh的运行结果写入到helloworld-log中"><a href="#用-amp-将helloworld-sh的运行结果写入到helloworld-log中" class="headerlink" title="用&amp;将helloworld.sh的运行结果写入到helloworld.log中"></a>用&amp;将helloworld.sh的运行结果写入到helloworld.log中</h5><h5 id="查看helloworld-log中写入的数据"><a href="#查看helloworld-log中写入的数据" class="headerlink" title="查看helloworld.log中写入的数据"></a>查看helloworld.log中写入的数据</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg" alt="img">  </p>
+<h5 id="查看是否存在helloworld-sh的进程"><a href="#查看是否存在helloworld-sh的进程" class="headerlink" title="查看是否存在helloworld.sh的进程"></a>查看是否存在helloworld.sh的进程</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg" alt="img"></p>
+<h5 id="关闭session后，再次连接查看，已经不存在helloworld-sh进程"><a href="#关闭session后，再次连接查看，已经不存在helloworld-sh进程" class="headerlink" title="关闭session后，再次连接查看，已经不存在helloworld.sh进程"></a>关闭session后，再次连接查看，已经不存在helloworld.sh进程</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg" alt="img"></p>
+<h4 id="4）nohup命令"><a href="#4）nohup命令" class="headerlink" title="4）nohup命令"></a>4）nohup命令</h4><h5 id="用nohup命令将helloworld-sh的运行结果写入到helloworld-log中"><a href="#用nohup命令将helloworld-sh的运行结果写入到helloworld-log中" class="headerlink" title="用nohup命令将helloworld.sh的运行结果写入到helloworld.log中"></a>用nohup命令将helloworld.sh的运行结果写入到helloworld.log中</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg" alt="img"></p>
+<h5 id="关闭session后，再次连接查看，helloworld-sh进程没有结束"><a href="#关闭session后，再次连接查看，helloworld-sh进程没有结束" class="headerlink" title="关闭session后，再次连接查看，helloworld.sh进程没有结束"></a>关闭session后，再次连接查看，helloworld.sh进程没有结束</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg" alt="img"></p>
+<h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><h5 id="使用-amp-后台运行程序：关闭session，程序关闭"><a href="#使用-amp-后台运行程序：关闭session，程序关闭" class="headerlink" title="使用&amp;后台运行程序：关闭session，程序关闭"></a>使用&amp;后台运行程序：关闭session，程序关闭</h5><h5 id="使用nohup运行程序：关闭session，程序继续执行"><a href="#使用nohup运行程序：关闭session，程序继续执行" class="headerlink" title="使用nohup运行程序：关闭session，程序继续执行"></a>使用nohup运行程序：关闭session，程序继续执行</h5><h4 id="2、文件的输入输出"><a href="#2、文件的输入输出" class="headerlink" title="2、文件的输入输出"></a>2、文件的输入输出</h4><h5 id="1）"><a href="#1）" class="headerlink" title="1）"></a>1）</h5><h5 id="三种标准流：标准输入流、标准输出流、标准错误流，标准输入来自于键盘；输出流，错误流-是输出到屏幕上的"><a href="#三种标准流：标准输入流、标准输出流、标准错误流，标准输入来自于键盘；输出流，错误流-是输出到屏幕上的" class="headerlink" title="三种标准流：标准输入流、标准输出流、标准错误流，标准输入来自于键盘；输出流，错误流 是输出到屏幕上的"></a>三种标准流：标准输入流、标准输出流、标准错误流，标准输入来自于键盘；输出流，错误流 是输出到屏幕上的</h5><h5 id="2）"><a href="#2）" class="headerlink" title="2）"></a>2）</h5><h5 id="command-gt-filename-把标准输出重定向到一个新文件中"><a href="#command-gt-filename-把标准输出重定向到一个新文件中" class="headerlink" title="command &gt; filename 把标准输出重定向到一个新文件中"></a>command &gt; filename 把标准输出重定向到一个新文件中</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image016.jpg" alt="img"></p>
+<h5 id="command-gt-gt-filename-把标准输出重定向到一个文件中-追加"><a href="#command-gt-gt-filename-把标准输出重定向到一个文件中-追加" class="headerlink" title="command &gt;&gt; filename 把标准输出重定向到一个文件中(追加)"></a>command &gt;&gt; filename 把标准输出重定向到一个文件中(追加)</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image017.png" alt="img"></p>
+<h5 id="command-1-gt-fielname-把标准输出重定向到一个文件中"><a href="#command-1-gt-fielname-把标准输出重定向到一个文件中" class="headerlink" title="command 1 &gt; fielname 把标准输出重定向到一个文件中"></a>command 1 &gt; fielname 把标准输出重定向到一个文件中</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image019.jpg" alt="img"></p>
+<h5 id="command-2-gt-filename-把标准错误重定向到一个文件中"><a href="#command-2-gt-filename-把标准错误重定向到一个文件中" class="headerlink" title="command 2&gt; filename 把标准错误重定向到一个文件中"></a>command 2&gt; filename 把标准错误重定向到一个文件中</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image020.png" alt="img"></p>
+<h4 id="3、xargs命令"><a href="#3、xargs命令" class="headerlink" title="3、xargs命令"></a>3、xargs命令</h4><h5 id="1）多行输入单行输出"><a href="#1）多行输入单行输出" class="headerlink" title="1）多行输入单行输出"></a>1）多行输入单行输出</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image021.png" alt="img"></p>
+<h5 id="2）-n-选型多行输出，-d选项可以自定义一个定界符"><a href="#2）-n-选型多行输出，-d选项可以自定义一个定界符" class="headerlink" title="2）-n 选型多行输出，-d选项可以自定义一个定界符"></a>2）-n 选型多行输出，-d选项可以自定义一个定界符</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image023.jpg" alt="img"></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/07/18/命令/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
