@@ -161,25 +161,153 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-命令" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Linux三剑客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="1、后台执行命令"><a href="#1、后台执行命令" class="headerlink" title="1、后台执行命令"></a>1、后台执行命令</h3><h4 id="1）crontab命令"><a href="#1）crontab命令" class="headerlink" title="1）crontab命令"></a>1）crontab命令</h4><h5 id="crontab命令每分钟执行一次date写入到job1-log"><a href="#crontab命令每分钟执行一次date写入到job1-log" class="headerlink" title="crontab命令每分钟执行一次date写入到job1.log"></a>crontab命令每分钟执行一次date写入到job1.log</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png" alt="img"></p>
-<h4 id="2）at命令"><a href="#2）at命令" class="headerlink" title="2）at命令"></a>2）at命令</h4><h5 id="at命令在14点40分执行date写入到job2-log"><a href="#at命令在14点40分执行date写入到job2-log" class="headerlink" title="at命令在14点40分执行date写入到job2.log"></a>at命令在14点40分执行date写入到job2.log</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image003.jpg" alt="img"></p>
-<h5 id="查看job2-log写入的数据"><a href="#查看job2-log写入的数据" class="headerlink" title="查看job2.log写入的数据"></a>查看job2.log写入的数据</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png" alt="img"></p>
-<h4 id="3）-amp"><a href="#3）-amp" class="headerlink" title="3）&amp;"></a>3）<strong>&amp;</strong></h4><h5 id="用-amp-将helloworld-sh的运行结果写入到helloworld-log中"><a href="#用-amp-将helloworld-sh的运行结果写入到helloworld-log中" class="headerlink" title="用&amp;将helloworld.sh的运行结果写入到helloworld.log中"></a>用&amp;将helloworld.sh的运行结果写入到helloworld.log中</h5><h5 id="查看helloworld-log中写入的数据"><a href="#查看helloworld-log中写入的数据" class="headerlink" title="查看helloworld.log中写入的数据"></a>查看helloworld.log中写入的数据</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg" alt="img">  </p>
-<h5 id="查看是否存在helloworld-sh的进程"><a href="#查看是否存在helloworld-sh的进程" class="headerlink" title="查看是否存在helloworld.sh的进程"></a>查看是否存在helloworld.sh的进程</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg" alt="img"></p>
-<h5 id="关闭session后，再次连接查看，已经不存在helloworld-sh进程"><a href="#关闭session后，再次连接查看，已经不存在helloworld-sh进程" class="headerlink" title="关闭session后，再次连接查看，已经不存在helloworld.sh进程"></a>关闭session后，再次连接查看，已经不存在helloworld.sh进程</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg" alt="img"></p>
-<h4 id="4）nohup命令"><a href="#4）nohup命令" class="headerlink" title="4）nohup命令"></a>4）nohup命令</h4><h5 id="用nohup命令将helloworld-sh的运行结果写入到helloworld-log中"><a href="#用nohup命令将helloworld-sh的运行结果写入到helloworld-log中" class="headerlink" title="用nohup命令将helloworld.sh的运行结果写入到helloworld.log中"></a>用nohup命令将helloworld.sh的运行结果写入到helloworld.log中</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg" alt="img"></p>
-<h5 id="关闭session后，再次连接查看，helloworld-sh进程没有结束"><a href="#关闭session后，再次连接查看，helloworld-sh进程没有结束" class="headerlink" title="关闭session后，再次连接查看，helloworld.sh进程没有结束"></a>关闭session后，再次连接查看，helloworld.sh进程没有结束</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg" alt="img"></p>
-<h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><h5 id="使用-amp-后台运行程序：关闭session，程序关闭"><a href="#使用-amp-后台运行程序：关闭session，程序关闭" class="headerlink" title="使用&amp;后台运行程序：关闭session，程序关闭"></a>使用&amp;后台运行程序：关闭session，程序关闭</h5><h5 id="使用nohup运行程序：关闭session，程序继续执行"><a href="#使用nohup运行程序：关闭session，程序继续执行" class="headerlink" title="使用nohup运行程序：关闭session，程序继续执行"></a>使用nohup运行程序：关闭session，程序继续执行</h5><h4 id="2、文件的输入输出"><a href="#2、文件的输入输出" class="headerlink" title="2、文件的输入输出"></a>2、文件的输入输出</h4><h5 id="1）"><a href="#1）" class="headerlink" title="1）"></a>1）</h5><h5 id="三种标准流：标准输入流、标准输出流、标准错误流，标准输入来自于键盘；输出流，错误流-是输出到屏幕上的"><a href="#三种标准流：标准输入流、标准输出流、标准错误流，标准输入来自于键盘；输出流，错误流-是输出到屏幕上的" class="headerlink" title="三种标准流：标准输入流、标准输出流、标准错误流，标准输入来自于键盘；输出流，错误流 是输出到屏幕上的"></a>三种标准流：标准输入流、标准输出流、标准错误流，标准输入来自于键盘；输出流，错误流 是输出到屏幕上的</h5><h5 id="2）"><a href="#2）" class="headerlink" title="2）"></a>2）</h5><h5 id="command-gt-filename-把标准输出重定向到一个新文件中"><a href="#command-gt-filename-把标准输出重定向到一个新文件中" class="headerlink" title="command &gt; filename 把标准输出重定向到一个新文件中"></a>command &gt; filename 把标准输出重定向到一个新文件中</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image016.jpg" alt="img"></p>
-<h5 id="command-gt-gt-filename-把标准输出重定向到一个文件中-追加"><a href="#command-gt-gt-filename-把标准输出重定向到一个文件中-追加" class="headerlink" title="command &gt;&gt; filename 把标准输出重定向到一个文件中(追加)"></a>command &gt;&gt; filename 把标准输出重定向到一个文件中(追加)</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image017.png" alt="img"></p>
-<h5 id="command-1-gt-fielname-把标准输出重定向到一个文件中"><a href="#command-1-gt-fielname-把标准输出重定向到一个文件中" class="headerlink" title="command 1 &gt; fielname 把标准输出重定向到一个文件中"></a>command 1 &gt; fielname 把标准输出重定向到一个文件中</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image019.jpg" alt="img"></p>
-<h5 id="command-2-gt-filename-把标准错误重定向到一个文件中"><a href="#command-2-gt-filename-把标准错误重定向到一个文件中" class="headerlink" title="command 2&gt; filename 把标准错误重定向到一个文件中"></a>command 2&gt; filename 把标准错误重定向到一个文件中</h5><p><img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image020.png" alt="img"></p>
-<h4 id="3、xargs命令"><a href="#3、xargs命令" class="headerlink" title="3、xargs命令"></a>3、xargs命令</h4><h5 id="1）多行输入单行输出"><a href="#1）多行输入单行输出" class="headerlink" title="1）多行输入单行输出"></a>1）多行输入单行输出</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image021.png" alt="img"></p>
-<h5 id="2）-n-选型多行输出，-d选项可以自定义一个定界符"><a href="#2）-n-选型多行输出，-d选项可以自定义一个定界符" class="headerlink" title="2）-n 选型多行输出，-d选项可以自定义一个定界符"></a>2）-n 选型多行输出，-d选项可以自定义一个定界符</h5><p>​              <img src="file:///C:/Users/HauzenMa/AppData/Local/Temp/msohtmlclip1/01/clip_image023.jpg" alt="img"></p>
+        <h2 id="Linux三剑客"><a href="#Linux三剑客" class="headerlink" title="Linux三剑客"></a>Linux三剑客</h2><h4 id="1、awk命令"><a href="#1、awk命令" class="headerlink" title="1、awk命令"></a>1、awk命令</h4><p>awk是一个强大的文本分析工具，相对于grep的查找，sed的编辑，awk在其对数据分析并生成报告时，显得尤为强大。简单来说awk就是把文件逐行的读入，以空格为默认分隔符将每行切片，切开的部分再进行各种分析处理。</p>
+<p>-F fs   fs指定输入分隔符，fs可以是字符串或正则表达式，如-F:</p>
+<p>-v var=value   赋值一个用户定义变量，将外部变量传递给awk</p>
+<p>-f scripfile  从脚本文件中读取awk命令</p>
+<p>-m[fr] val   对val值设置内在限制，-mf选项限制分配给val的最大块数目；-mr选项限制记录的最大数目。</p>
+<p>使用方法：awk ‘BEGIN{..} {..} END{..}’ filename</p>
+<p>awk内置参数</p>
+<p>ARGC               命令行参数个数</p>
+<p>ARGV               命令行参数排列</p>
+<p>ENVIRON            支持队列中系统环境变量的使用</p>
+<p>FILENAME           awk浏览的文件名</p>
+<p>FNR                浏览文件的记录数</p>
+<p>FS                 设置输入域分隔符，等价于命令行 -F选项</p>
+<p>NF                 浏览记录的域的个数</p>
+<p>NR                 已读的记录数</p>
+<p>OFS                输出域分隔符</p>
+<p>ORS                输出记录分隔符</p>
+<p>RS                 控制记录分隔符</p>
+<p>$0变量是指整条记录。​$1表示当前行的第一个域，$2表示当前行的第二个域,……以此类推。</p>
+<p>$NF是number finally,表示最后一列的信息，跟变量NF是有区别的，变量NF统计的是每行列的总数</p>
+<p>排序查找a.txt文件的前5行的第一列和第四列，并格式化</p>
+<p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5Cclip_image002.jpg" alt="img"></p>
+<p>排序查找a.txt文件的前7行第一列和第四列</p>
+<p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image004.jpg" alt="img"></p>
+<p>匹配a.txt文件的第一列首字母不是1-7的行，并排序</p>
+<p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image006.jpg" alt="img"></p>
+<p>查看/etc/passwd文件，并格式化输出</p>
+<p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image008.jpg" alt="img"></p>
+<h4 id="2、sed命令"><a href="#2、sed命令" class="headerlink" title="2、sed命令"></a>2、sed命令</h4><p>sed主要用来自动编辑一个或多个文件；简化对文件的反复操作；编写转换程序等。</p>
+<p>​       参数</p>
+<p>-e<script>或--expression=<script> 以选项中指定的script来处理输入的文本文件。</p>
+<p>-f<script文件>或--file=<script文件> 以选项中指定的script文件来处理输入的文本文件。</p>
+<p>-h或--help 显示帮助。</p>
+<p>-n或--quiet或--silent 仅显示script处理后的结果。</p>
+<p>-V或--version 显示版本信息。</p>
+<p>​       动作</p>
+<p>a ：新增， a 的后面可以接字串，而这些字串会在新的一行出现(目前的下一行)～</p>
+<p>c ：取代， c 的后面可以接字串，这些字串可以取代 n1,n2 之间的行！</p>
+<p>d ：删除，因为是删除啊，所以 d 后面通常不接任何咚咚；</p>
+<p>i ：插入， i 的后面可以接字串，而这些字串会在新的一行出现(目前的上一行)；</p>
+<p>p ：列印，亦即将某个选择的数据印出。通常 p 会与参数 sed -n 一起运行～</p>
+<p>s ：取代，可以直接进行取代的工作哩！通常这个 s 的动作可以搭配正规表示法</p>
+<p>在/etc/passwd文件的第2行后新增new，并显示行号</p>
+<p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image009.png" alt="img"></p>
+<p>用no取代/etc/passwd文件的第2行，并显示行号</p>
+<p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image011.jpg" alt="img"></p>
+<p>不显示在/etc/passwd文件的第2行至第5行，并显示行号</p>
+<p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image012.png" alt="img"></p>
+<p>在/etc/passwd文件的第2行前插入一行in，并显示行号</p>
+<p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image014.jpg" alt="img"></p>
+<p>只显示/etc/passwd文件的第5行至地7行，并显示行号</p>
+<p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image015.png" alt="img"></p>
+<p>只显示在/etc/passwd文件包含/root的行，并显示行号</p>
+<p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image017.jpg" alt="img"></p>
+<h4 id="3、grep命令"><a href="#3、grep命令" class="headerlink" title="3、grep命令"></a>3、grep命令</h4><p>​       grep命令用于查找文件里符合条件的字符串。过滤来自一个文件或标准输入匹配模式内容。</p>
+<p>​       支持正则表达式</p>
+<p>-E，--extended-regexp 模式是扩展正则表达式（ERE）</p>
+<p>-e，--regexp=PATTERN 使用模式匹配，可指定多个模式匹</p>
+<p>-f，--file=FILE 从文件每一行获取匹配模式</p>
+<p>-i，--ignore-case 忽略大小写</p>
+<p>-w，--word-regexp 模式匹配整个单词</p>
+<p>-x，--line-regexp 模式匹配整行</p>
+<p>-v，--invert-match 打印不匹配的行</p>
+<p>参数控制</p>
+<p>-m，--max-count=NUM 输出匹配的结果 num 数</p>
+<p>-n，--line-number 打印行号</p>
+<p>-H，--with-filename 打印每个匹配的文件名</p>
+<p>-h，--no-filename 不输出文件名</p>
+<p>-o，--only-matching 只打印匹配的内容</p>
+<p>-q，--quiet 不输出正常信息</p>
+<p>-s, --no-messages 不输出错误信息</p>
+<p>-r，--recursive 递归目录</p>
+<p>-c，--count 只打印每个文件匹配的行数</p>
+<p>匹配数字11 12</p>
+<p>​       <img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image018.png" alt="img"></p>
+<p>​       匹配数字5，并显示其前两行</p>
+<p>​       <img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image019.png" alt="img"></p>
+<p>​       匹配数字5，并显示其后两行</p>
+<p>​       <img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image020.png" alt="img"></p>
+<p>​       匹配数字5，并显示其前后两行</p>
+<p>​       <img src="E:%5CBlog%5Csource%5Cassets%5CblogImg/clip_image021.png" alt="img"></p>
+</script></p>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/07/21/Linux三剑客/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-后台命令" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="1、后台执行命令"><a href="#1、后台执行命令" class="headerlink" title="1、后台执行命令"></a>1、后台执行命令</h3><h4 id="1）crontab命令"><a href="#1）crontab命令" class="headerlink" title="1）crontab命令"></a>1）crontab命令</h4><h5 id="crontab命令每分钟执行一次date写入到job1-log"><a href="#crontab命令每分钟执行一次date写入到job1-log" class="headerlink" title="crontab命令每分钟执行一次date写入到job1.log"></a>crontab命令每分钟执行一次date写入到job1.log</h5><p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_1.jpg" alt="img"></p>
+<h4 id="2）at命令"><a href="#2）at命令" class="headerlink" title="2）at命令"></a>2）at命令</h4><h5 id="at命令在14点40分执行date写入到job2-log"><a href="#at命令在14点40分执行date写入到job2-log" class="headerlink" title="at命令在14点40分执行date写入到job2.log"></a>at命令在14点40分执行date写入到job2.log</h5><p>​              <img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_2.jpg" alt="img"></p>
+<h5 id="查看job2-log写入的数据"><a href="#查看job2-log写入的数据" class="headerlink" title="查看job2.log写入的数据"></a>查看job2.log写入的数据</h5><p>​              <img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_3.jpg" alt="img"></p>
+<h4 id="3）-amp"><a href="#3）-amp" class="headerlink" title="3）&amp;"></a>3）<strong>&amp;</strong></h4><h5 id="用-amp-将helloworld-sh的运行结果写入到helloworld-log中"><a href="#用-amp-将helloworld-sh的运行结果写入到helloworld-log中" class="headerlink" title="用&amp;将helloworld.sh的运行结果写入到helloworld.log中"></a>用&amp;将helloworld.sh的运行结果写入到helloworld.log中</h5><h5 id="查看helloworld-log中写入的数据"><a href="#查看helloworld-log中写入的数据" class="headerlink" title="查看helloworld.log中写入的数据"></a>查看helloworld.log中写入的数据</h5><p>​              <img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_4.jpg" alt="img">  </p>
+<h5 id="查看是否存在helloworld-sh的进程"><a href="#查看是否存在helloworld-sh的进程" class="headerlink" title="查看是否存在helloworld.sh的进程"></a>查看是否存在helloworld.sh的进程</h5><p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_5.jpg" alt="img"></p>
+<h5 id="关闭session后，再次连接查看，已经不存在helloworld-sh进程"><a href="#关闭session后，再次连接查看，已经不存在helloworld-sh进程" class="headerlink" title="关闭session后，再次连接查看，已经不存在helloworld.sh进程"></a>关闭session后，再次连接查看，已经不存在helloworld.sh进程</h5><p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_6.jpg" alt="img"></p>
+<h4 id="4）nohup命令"><a href="#4）nohup命令" class="headerlink" title="4）nohup命令"></a>4）nohup命令</h4><h5 id="用nohup命令将helloworld-sh的运行结果写入到helloworld-log中"><a href="#用nohup命令将helloworld-sh的运行结果写入到helloworld-log中" class="headerlink" title="用nohup命令将helloworld.sh的运行结果写入到helloworld.log中"></a>用nohup命令将helloworld.sh的运行结果写入到helloworld.log中</h5><p>​              <img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_7.jpg" alt="img"></p>
+<h5 id="关闭session后，再次连接查看，helloworld-sh进程没有结束"><a href="#关闭session后，再次连接查看，helloworld-sh进程没有结束" class="headerlink" title="关闭session后，再次连接查看，helloworld.sh进程没有结束"></a>关闭session后，再次连接查看，helloworld.sh进程没有结束</h5><p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_8.jpg" alt="img"></p>
+<h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><h5 id="使用-amp-后台运行程序：关闭session，程序关闭"><a href="#使用-amp-后台运行程序：关闭session，程序关闭" class="headerlink" title="使用&amp;后台运行程序：关闭session，程序关闭"></a>使用&amp;后台运行程序：关闭session，程序关闭</h5><h5 id="使用nohup运行程序：关闭session，程序继续执行"><a href="#使用nohup运行程序：关闭session，程序继续执行" class="headerlink" title="使用nohup运行程序：关闭session，程序继续执行"></a>使用nohup运行程序：关闭session，程序继续执行</h5><h4 id="2、文件的输入输出"><a href="#2、文件的输入输出" class="headerlink" title="2、文件的输入输出"></a>2、文件的输入输出</h4><h5 id="1）"><a href="#1）" class="headerlink" title="1）"></a>1）</h5><h5 id="三种标准流：标准输入流、标准输出流、标准错误流，标准输入来自于键盘；输出流，错误流-是输出到屏幕上的"><a href="#三种标准流：标准输入流、标准输出流、标准错误流，标准输入来自于键盘；输出流，错误流-是输出到屏幕上的" class="headerlink" title="三种标准流：标准输入流、标准输出流、标准错误流，标准输入来自于键盘；输出流，错误流 是输出到屏幕上的"></a>三种标准流：标准输入流、标准输出流、标准错误流，标准输入来自于键盘；输出流，错误流 是输出到屏幕上的</h5><h5 id="2）"><a href="#2）" class="headerlink" title="2）"></a>2）</h5><h5 id="command-gt-filename-把标准输出重定向到一个新文件中"><a href="#command-gt-filename-把标准输出重定向到一个新文件中" class="headerlink" title="command &gt; filename 把标准输出重定向到一个新文件中"></a>command &gt; filename 把标准输出重定向到一个新文件中</h5><p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_9.jpg" alt="img"></p>
+<h5 id="command-gt-gt-filename-把标准输出重定向到一个文件中-追加"><a href="#command-gt-gt-filename-把标准输出重定向到一个文件中-追加" class="headerlink" title="command &gt;&gt; filename 把标准输出重定向到一个文件中(追加)"></a>command &gt;&gt; filename 把标准输出重定向到一个文件中(追加)</h5><p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_10.jpg" alt="img"></p>
+<h5 id="command-1-gt-fielname-把标准输出重定向到一个文件中"><a href="#command-1-gt-fielname-把标准输出重定向到一个文件中" class="headerlink" title="command 1 &gt; fielname 把标准输出重定向到一个文件中"></a>command 1 &gt; fielname 把标准输出重定向到一个文件中</h5><p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_11.jpg" alt="img"></p>
+<h5 id="command-2-gt-filename-把标准错误重定向到一个文件中"><a href="#command-2-gt-filename-把标准错误重定向到一个文件中" class="headerlink" title="command 2&gt; filename 把标准错误重定向到一个文件中"></a>command 2&gt; filename 把标准错误重定向到一个文件中</h5><p><img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_12.jpg" alt="img"></p>
+<h4 id="3、xargs命令"><a href="#3、xargs命令" class="headerlink" title="3、xargs命令"></a>3、xargs命令</h4><h5 id="1）多行输入单行输出"><a href="#1）多行输入单行输出" class="headerlink" title="1）多行输入单行输出"></a>1）多行输入单行输出</h5><p>​              <img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_13.jpg" alt="img"></p>
+<h5 id="2）-n-选型多行输出，-d选项可以自定义一个定界符"><a href="#2）-n-选型多行输出，-d选项可以自定义一个定界符" class="headerlink" title="2）-n 选型多行输出，-d选项可以自定义一个定界符"></a>2）-n 选型多行输出，-d选项可以自定义一个定界符</h5><p>​              <img src="E:%5CBlog%5Csource%5Cassets%5CblogImg%5C1_14.jpg" alt="img"></p>
 
       
 
@@ -192,7 +320,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2019/07/18/命令/">展开全文 >></a>
+          <a class="article-more-a" href="/2019/07/18/后台命令/">展开全文 >></a>
         </p>
       
 
